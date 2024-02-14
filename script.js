@@ -29,14 +29,14 @@ $(document).ready(function() {
       }, 200);
 
       $('body').animate({
-        right: "285px"
+        right: "70vw"
       }, 200);
     });
 
     // Then push them back */
     $('.fa-times').click(function() {
       $('.nav-screen').animate({
-        right: "-285px"
+        right: "-70vw"
       }, 200);
 
       $('body').animate({
@@ -46,7 +46,7 @@ $(document).ready(function() {
 
     $('.nav-links a').click(function() {
       $('.nav-screen').animate({
-        right: "-285px"
+        right: "-70vw"
       }, 500);
 
       $('body').animate({
