@@ -506,7 +506,7 @@ p {
 
 /* smaller resolution styles */
 
-@media (min-width: 400px) and (max-width: 720px) {
+@media (min-width: 100px) and (max-width: 720px) {
 
   .fa-bars {
     display: block !important;
