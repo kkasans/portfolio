@@ -419,9 +419,9 @@ p {
   margin-bottom: 23px;
 }
 
-.content-slide .slide:nth-child(3) h1,
-.content-slide .slide:nth-child(6) h1,
-.content-slide .slide:nth-child(7) h1 {
+.content-slide .slide:nth-child(5) h1,
+.content-slide .slide:nth-child(8) h1,
+.content-slide .slide:nth-child(9) h1 {
   font-family: 'Noto Sans KR';
   font-weight: 500;
 }
@@ -536,7 +536,7 @@ p {
 
 /* mobile styles */
 
-@media (min-width: 100px) and (max-width: 400px) {
+@media (min-width: 100px) and (max-width: 480px) {
 
   .content {
     max-width: 300px;
