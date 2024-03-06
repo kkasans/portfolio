@@ -568,7 +568,7 @@ p {
   }
 
   .skills img {
-    max-width: 7vw;
+    max-width: 6vw;
   }
 
   .content-slide .link a {
@@ -583,7 +583,9 @@ p {
   .content {
     max-width: 300px;
   }
-
+  .opaque-bg h1 {
+    font-size: 50px;
+  }
 
 }
 
