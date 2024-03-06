@@ -136,6 +136,7 @@ p {
 .header-links a {
   color: #757575;
   transition: all 0.2s ease-in;
+  font-size: 20px;
 }
 
 .header-links a:hover {
@@ -407,10 +408,11 @@ p {
 }
 
 .content p {
+  font-size: 2vh;
   font-family: 'Noto Sans KR';
   font-weight: 300;
   letter-spacing: -1px;
-  margin: 0 7px;
+  line-height: 1.7;
 }
 
 .content-slide {
@@ -566,7 +568,7 @@ p {
   }
 
   .skills img {
-    max-width: 7.5vw;
+    max-width: 7vw;
   }
 
   .content-slide .link a {
