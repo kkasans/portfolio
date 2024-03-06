@@ -497,7 +497,7 @@ p {
   font-family: 'Noto Sans KR';
   font-weight: 300;
   letter-spacing: -1px;
-  line-height: 1.1;
+  line-height: 1.5;
 }
 
 .container-skillbar .skill,
@@ -524,7 +524,7 @@ p {
 
 /* smaller resolution styles */
 
-@media (min-width: 100px) and (max-width: 1024px) {
+@media (min-width: 100px) and (max-width: 1080px) {
 
   .fa-bars {
     display: block !important;
@@ -541,7 +541,7 @@ p {
   .opaque-bg h1,
   .opaque-bg p {
     width: 100%;
-    font-size: 4vh;
+    font-size: 5vh;
     text-align: center;
   }
 
@@ -568,7 +568,7 @@ p {
   }
 
   .skills img {
-    max-width: 6vw;
+    max-width: 7vw;
   }
 
   .content-slide .link a {
