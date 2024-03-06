@@ -520,6 +520,71 @@ p {
   max-width: 6vh;
 }
 
+/* smaller resolution styles */
+
+@media (min-width: 100px) and (max-width: 1024px) {
+
+  .fa-bars {
+    display: block !important;
+  }
+
+  .header-links li {
+    display: none;
+  }
+
+  .nav-screen {
+    display: block;
+  }
+
+  .opaque-bg h1,
+  .opaque-bg p {
+    width: 100%;
+    font-size: 5vh;
+    text-align: center;
+  }
+
+  #holder,
+  .opaque-bg span {
+    font-size: 4vh;
+  }
+
+  .content h3 {
+    font-size: 2.5vh;
+  }
+
+  .content p {
+    font-size: 1.8vh;
+  }
+
+  .license {
+    margin-top: 30px;
+  }
+
+  .container-skillbar .skill,
+  .container-skillbar .tools {
+    gap: 2%;
+  }
+
+  .skills img {
+    max-width: 7.5vw;
+  }
+
+  .content-slide .link a {
+    font-size: 2vh;
+  }
+}
+
+/* mobile styles */
+
+@media (min-width: 100px) and (max-width: 480px) {
+
+  .content {
+    max-width: 300px;
+  }
+
+
+}
+
 /* loading screen animation */
 
 .spinner {
