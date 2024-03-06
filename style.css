@@ -88,7 +88,7 @@ p {
 }
 
 #myMenu a {
-  font-size: 2vh;
+  font-size: 20px;
 }
 
 /* nav header links */
@@ -541,7 +541,7 @@ p {
   .opaque-bg h1,
   .opaque-bg p {
     width: 100%;
-    font-size: 5vh;
+    font-size: 4vh;
     text-align: center;
   }
 
