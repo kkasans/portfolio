@@ -21,7 +21,7 @@ $(document).ready(function() {
   // initialize wow.js
   new WOW().init();
     
-  // Push the body and the nav over by 285px over
+  // Push the body and the nav over by 100vw over
   var main = function() {
     $('.fa-bars').click(function() {
       $('.nav-screen').animate({
@@ -29,14 +29,14 @@ $(document).ready(function() {
       }, 200);
 
       $('body').animate({
-        right: "70vw"
+        right: "100vw"
       }, 200);
     });
 
     // Then push them back */
     $('.fa-times').click(function() {
       $('.nav-screen').animate({
-        right: "-70vw"
+        right: "-100vw"
       }, 200);
 
       $('body').animate({
@@ -46,7 +46,7 @@ $(document).ready(function() {
 
     $('.nav-links a').click(function() {
       $('.nav-screen').animate({
-        right: "-70vw"
+        right: "-100vw"
       }, 500);
 
       $('body').animate({
